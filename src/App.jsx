@@ -38,7 +38,7 @@ function App() {
   if (loading) {
     return (
       <div className="splash-screen">
-        <img src="https://png.pngtree.com/element_our/png/20181107/pngtree-lizard-png-image_233437.jpg" alt="Cargando..." className="splash-img" />
+        <img src="https://img.freepik.com/vector-premium/lindo-lagarto-dibujos-animados-aislado-sobre-fondo-blanco_1257245-928.jpg?semt=ais_hybrid&w=740" alt="Cargando..." className="splash-img" />
       </div>
     );
   }
