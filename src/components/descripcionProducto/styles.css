@@ -1,0 +1,225 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #ffffff;
+  padding: 20px 25px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+  font-family: 'Segoe UI', sans-serif;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.modal-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.cerrar {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
+}
+
+.cerrar:hover {
+  color: red;
+  transition: color 0.3s ease;
+}
+
+.imagenes-producto {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.img-principal {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.galeria img {
+  width: 60px;
+  margin: 4px;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+}
+
+.precio {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #007BFF;
+  margin: 8px 0;
+}
+
+.descripcion {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.btn-agregar {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  margin-top: 10px;
+}
+
+.btn-agregar:hover {
+  background-color: #218838;
+}
+
+h1,
+h2 {
+  margin-bottom: 10px;
+  font-weight: 600;
+  border-radius: 4px;
+  color: #333;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cerrar {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  font-size: 1.2rem;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: #666;
+}
+
+.cerrar:hover {
+  color: #000;
+}
+
+h1,
+h2 {
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #333;
+}
+
+.precio {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #007BFF;
+  margin: 8px 0;
+}
+
+.descripcion {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 18px;
+  margin-bottom: 10px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.btn-agregar {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  margin-top: 10px;
+}
+
+.btn-agregar:hover {
+  background-color: #218838;
+}
+
+/* Imagen principal y galería */
+.imagenes-producto {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.img-principal {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.galeria img {
+  width: 60px;
+  margin: 4px;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.galeria img:hover {
+  transform: scale(1.1);
+}
