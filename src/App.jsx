@@ -38,7 +38,7 @@ function App() {
   if (loading) {
     return (
       <div className="splash-screen">
-        <img src="src/assets/logo/imageedit_5_4374796751.png" alt="Cargando..." className="splash-img" />
+        <img src="https://png.pngtree.com/element_our/png/20181107/pngtree-lizard-png-image_233437.jpg" alt="Cargando..." className="splash-img" />
       </div>
     );
   }
